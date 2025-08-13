@@ -1,7 +1,7 @@
 name: Ensure Site Builds Cleanly
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
 
 jobs:
   build-site:
@@ -24,7 +24,7 @@ jobs:
           cache: 'npm'
 
       - name: Restore node_modules cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-node_modules
 
       - name: Restore Asset Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           key: if-cache
           path: |
@@ -101,8 +101,8 @@ jobs:
         run: ls -la ${{ github.workspace }}/dist
 
       - name: Upload PDFs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: site-pdfs
           path: |
-            ${{ github.workspace }}/dist/**.pdf
+            ${{ github.workspace }}/dist/*
