@@ -53,7 +53,8 @@ const markdownEngines = {
         ariaHidden: true,
       }),
     })
-    .use(require('./lib/markdown-raw-html'), { debug: false }),
+    .use(require('./lib/markdown-raw-html'), { debug: false })
+    .use(require('markdown-it-footnote')),
 
   preview: markdownIt({
     html: false,
