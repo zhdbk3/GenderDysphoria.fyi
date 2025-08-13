@@ -7,7 +7,7 @@ jobs:
   build-site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Install GraphicsMagick
         run: sudo apt install graphicsmagick
@@ -18,7 +18,7 @@ jobs:
           sudo apt install ./google-chrome-stable_current_amd64.deb
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
           cache: 'npm'
