@@ -38,6 +38,7 @@ const markdownEngines = {
     typographer: true,
   })
     .enable('image')
+    .use(require('markdown-it-footnote'))
     .use(require('markdown-it-link-attributes'), {
       pattern: /^https?:/,
       attrs: {
@@ -53,8 +54,7 @@ const markdownEngines = {
         ariaHidden: true,
       }),
     })
-    .use(require('./lib/markdown-raw-html'), { debug: false })
-    .use(require('markdown-it-footnote')),
+    .use(require('./lib/markdown-raw-html'), { debug: false }),
 
   preview: markdownIt({
     html: false,

@@ -49,6 +49,11 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Spawn HTTP server
+        uses: Eun/http-server-action@v1
+        with:
+          directory: dist
+
       - name: (EN) Generate PDF from HTML
         run: |
           google-chrome --headless --print-to-pdf-no-header \
