@@ -14,10 +14,10 @@
   name: Polski (PL)
   pdf-source: /pl/do-druku/index.html?pdf=true
 
-- lang: tw
-  name: 台灣華語 (TW)
-  pdf-source: /tw/printable/index.html?pdf=true
-  
-- lang: zh
-  name: 中文 (ZH)
-  pdf-source: /zh/printable/index.html?pdf=true
+- lang: zh-hant
+  name: 繁體中文 (ZH-Hant)
+  pdf-source: /zh-hant/printable/index.html?pdf=true
+
+- lang: zh-hans
+  name: 简体中文 (ZH-Hans)
+  pdf-source: /zh-hans/printable/index.html?pdf=true

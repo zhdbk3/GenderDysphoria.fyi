@@ -1,13 +1,13 @@
 name: Ensure Site Builds Cleanly
 on:
   push:
-    branches: [ master ]
+    branches: [ zh-dev ]
 
 jobs:
   build-site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Install GraphicsMagick
         run: sudo apt install graphicsmagick
@@ -18,13 +18,13 @@ jobs:
           sudo apt install ./google-chrome-stable_current_amd64.deb
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
           cache: 'npm'
 
       - name: Restore node_modules cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}
@@ -32,7 +32,7 @@ jobs:
             ${{ runner.os }}-node_modules
 
       - name: Restore Asset Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           key: if-cache
           path: |
@@ -49,17 +49,22 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Spawn HTTP server
+        uses: Eun/http-server-action@v1
+        with:
+          directory: dist
+
       - name: (EN) Generate PDF from HTML
         run: |
           google-chrome --headless --print-to-pdf-no-header \
           --run-all-compositor-stages-before-draw --print-to-pdf="${{ github.workspace }}/dist/en.pdf" \
           http://127.0.0.1:8080/en/printable/index.html
 
-      - name: (ZH) Generate PDF from HTML
+      - name: (ZH-Hans) Generate PDF from HTML
         run: |
           google-chrome --headless --print-to-pdf-no-header \
           --run-all-compositor-stages-before-draw --print-to-pdf="${{ github.workspace }}/dist/zh.pdf" \
-          http://127.0.0.1:8080/zh/printable/index.html
+          http://127.0.0.1:8080/zh-hans/printable/index.html
 
       - name: (DE) Generate PDF from HTML
         run: |
@@ -101,8 +106,8 @@ jobs:
         run: ls -la ${{ github.workspace }}/dist
 
       - name: Upload PDFs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: site-pdfs
           path: |
-            ${{ github.workspace }}/dist/**.pdf
+            ${{ github.workspace }}/dist/*
