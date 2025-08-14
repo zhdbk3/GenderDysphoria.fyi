@@ -18,7 +18,7 @@ classes:
 # 荷爾蒙如何運作
 
 <!-- As we described in the [Causes of Gender Dysphoria](/en/causes) section, every human's DNA contains the genetic instructions for both male and female bodies, and which set of instructions gets used is controlled by what hormones your gonads produce. That differentiation occurs entirely based on whether you happen to have an SRY gene which, between the sixth and eighth weeks of gestation, kicks off a chain reaction that produces testes instead of ovaries. From that point on, every sexual attribute of the human body (primary and secondary) is a result of the hormones that those gonads produce. -->
-正如我們在[性別不安的成因](/tw/causes)一節中所描述的，每個人的 DNA 都包含男性和女性身體的基因指令，而使用哪一套指令則取決於你的性腺產生的荷爾蒙。這種分化完全取決於你是否碰巧擁有一個 SRY 基因，它在妊娠的第六週到第八週之間會啟動一個連鎖反應，產生睪丸而不是卵巢。從那時起，人體的所有性徵（第一和第二）都是這些性腺產生的荷爾蒙的結果。
+正如我們在[性別不安的成因](/zh-hant/causes)一節中所描述的，每個人的 DNA 都包含男性和女性身體的基因指令，而使用哪一套指令則取決於你的性腺產生的荷爾蒙。這種分化完全取決於你是否碰巧擁有一個 SRY 基因，它在妊娠的第六週到第八週之間會啟動一個連鎖反應，產生睪丸而不是卵巢。從那時起，人體的所有性徵（第一和第二）都是這些性腺產生的荷爾蒙的結果。
 
 <!-- If they produce estrogens (primarily estradiol), the genitals form into a vulva, vagina, and uterus. If they produce androgens (primarily testosterone), the genitals form into a penis and scrotum, shifting the [Skene's gland](https://en.wikipedia.org/wiki/Skene%27s_gland) downward and enlarging it into a prostate. Differentiation ends here until the onset of puberty, nine to ten years later, and we all know what puberty does. -->
 如果它們產生雌激素（主要是雌二醇），生殖器就會形成外陰、陰道和子宮。如果它們產生雄激素（主要是睪固酮），生殖器就會形成陰莖和陰囊，將[斯基恩氏腺](https://zh.wikipedia.org/wiki/%E6%96%AF%E5%9F%BA%E6%81%A9%E6%B0%8F%E8%85%BA)向下移動並將其擴大成前列腺。分化到此結束，直到九到十年後青春期開始，我們都知道青春期會做什麼。

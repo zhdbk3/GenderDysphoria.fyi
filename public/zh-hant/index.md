@@ -28,49 +28,49 @@ siblings:
 
 {!{ <div class="two-column-list"> }!}
 
-1. [簡介](/tw/#簡介)
+1. [簡介](/zh-hant/#簡介)
 
-2. [性別是什麼？](/tw/what-is-gender)
+2. [性別是什麼？](/zh-hant/what-is-gender)
 
-3. [性別不安的歷史](/tw/history)
+3. [性別不安的歷史](/zh-hant/history)
 
-4. [性別欣快](/tw/euphoria)
+4. [性別欣快](/zh-hant/euphoria)
 
-5. [身體不安](/tw/physical-dysphoria)
+5. [身體不安](/zh-hant/physical-dysphoria)
 
-6. [生化不安](/tw/biochemical-dysphoria)
+6. [生化不安](/zh-hant/biochemical-dysphoria)
 
-7. [社交不安](/tw/social-dysphoria)
+7. [社交不安](/zh-hant/social-dysphoria)
 
-8. [社會不安](/tw/societal-dysphoria)
+8. [社會不安](/zh-hant/societal-dysphoria)
 
-9. [性慾不安](/tw/sexual-dysphoria)
+9. [性慾不安](/zh-hant/sexual-dysphoria)
 
-10. [表現不安](/tw/presentational-dysphoria)
+10. [表現不安](/zh-hant/presentational-dysphoria)
 
-11. [存在不安](/tw/existential-dysphoria)
+11. [存在不安](/zh-hant/existential-dysphoria)
 
-12. [應付不安](/tw/managed-dysphoria)
+12. [應付不安](/zh-hant/managed-dysphoria)
 
-13. [冒名頂替症候群](/tw/impostor-syndrome)
+13. [冒名頂替症候群](/zh-hant/impostor-syndrome)
 
-14. [我是跨嗎?](/tw/am-i-trans)
+14. [我是跨嗎?](/zh-hant/am-i-trans)
 
-15. [臨床診斷](/tw/diagnoses)
+15. [臨床診斷](/zh-hant/diagnoses)
 
-16. [治療性別不安](/tw/treatment)
+16. [治療性別不安](/zh-hant/treatment)
 
-17. [性別不安的成因](/tw/causes)
+17. [性別不安的成因](/zh-hant/causes)
 
-18. [染色體](/tw/chromosomes)
+18. [染色體](/zh-hant/chromosomes)
 
-19. [荷爾蒙如何工作的](/tw/hormones)
+19. [荷爾蒙如何工作的](/zh-hant/hormones)
 
-20. [雄性第二次青春期 101](/tw/second-puberty-masc)
+20. [雄性第二次青春期 101](/zh-hant/second-puberty-masc)
 
-21. [雌性第二次青春期 101](/tw/second-puberty-fem)
+21. [雌性第二次青春期 101](/zh-hant/second-puberty-fem)
 
-22. [結論](/tw/conclusion)
+22. [結論](/zh-hant/conclusion)
 
 {!{ </div> }!}
 
