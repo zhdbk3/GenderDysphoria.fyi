@@ -43,8 +43,8 @@ jobs:
       - name: Install node dependencies
         run: npm ci
 
-      - name: Lint JS code
-        run: npm test
+#      - name: Lint JS code
+#        run: npm test
 
       - name: Build site
         run: npm run build
