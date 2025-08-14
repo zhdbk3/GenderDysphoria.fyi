@@ -336,7 +336,8 @@ class Injectables {
 
       const { resolve: rval } = extra;
       const filename = rval('@value.input');
-      lang = (rval('@root.this.page.lang') || 'en').split('-')[0];
+      // lang = (rval('@root.this.page.lang') || 'en').split('-')[0];
+      lang = rval('@root.this.page.lang') || 'en'
 
       switch (args.length) {
       case 0:
